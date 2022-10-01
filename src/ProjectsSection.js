@@ -1,6 +1,10 @@
 import React,{useEffect,useState} from "react";
 import axios from "axios";
+
+
 const ProjectsSection=()=>{
+
+  
 
   const [project,setProject]=useState([]);
   const imagePath="http://localhost:4000/public/";
